@@ -14,7 +14,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -53,15 +52,12 @@ public class MainActivity extends AppCompatActivity {
         mmale=findViewById(R.id.male);
         mfemale=findViewById(R.id.female);
 
-
-
         mmale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                         mmale.setBackground(ContextCompat.getDrawable(getApplicationContext(),R.drawable.malefemalefocus));
                         mfemale.setBackground(ContextCompat.getDrawable(getApplicationContext(),R.drawable.malefemalenotfocus));
                         typerofuser="Male";
-
             }
         });
 
@@ -245,13 +241,8 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra("weight", weight2);
                     intent.putExtra("age", age2);
                     startActivity(intent);
-
                 }
-
-
             }
         });
-
-
     }
 }
