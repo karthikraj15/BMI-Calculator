@@ -4,4 +4,4 @@ Body Mass Index calculator in android studio using java
 
 ## Result
 
-Checkout output here [images[(https://github.com/karthikraj15/BMI-Calculator/tree/master/Output)
+Checkout output here [images](https://github.com/karthikraj15/BMI-Calculator/tree/master/Output)
